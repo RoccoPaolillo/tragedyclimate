@@ -172,7 +172,7 @@ ifelse muovi_unità [
   ][]
 
   ifelse is_crisi_energetica [
-  set riserve_unità (energia_acquisita + riserva_personaleunit)
+  set riserve_unità (energia_acquisita + )
   ]
   [
       set riserve_unità (energia_acquisita)
